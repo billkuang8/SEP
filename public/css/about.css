@@ -1,0 +1,44 @@
+#message{
+	position: absolute;
+	font-size: 12px;
+	display: block !important;
+}
+	#message > span {
+		position: absolute;
+		margin-left: 20px;
+		margin-right: 50px;
+		width: 60%;
+	}
+
+#news {
+	padding-right: 25px;
+	position: absolute;
+	overflow: auto;
+	font-size: 12px;
+	display: block !important;
+	border-right: 2px solid #f0f0f0;
+	margin-left: 5px;
+}
+
+#bottom {
+	position: absolute;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+	#bottom > div {
+		display: inline-block;
+	}
+
+#who, #partners {
+	width: 23%;
+	
+	border: 3px solid #9f9f9f;
+}
+#vision {
+	width: 23%;
+	
+	border: 3px solid #9f9f9f;
+}
+#bottom h3 {
+	color: #499a4e;
+}

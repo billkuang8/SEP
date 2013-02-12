@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !http://www.berkeleysep.com/.* [NC]
+RewriteRule ^.*html$ - [F]
+RewriteRule ^.*txt$ - [F]
+
+Options -Indexes 
+# or #
+IndexIgnore *

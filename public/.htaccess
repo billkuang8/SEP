@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !http://localhost/.* [NC]
+RewriteRule ^.*html$ - [F]
+RewriteRule ^.*txt$ - [F]
+
+
+Options -Indexes 
+# or #
+IndexIgnore *

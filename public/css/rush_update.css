@@ -1,0 +1,27 @@
+#rush_banner {
+	width: 100%;
+}
+
+#rush_main {
+	font-family: Arial;
+	position: absolute;
+	top: 280px;
+	padding: 20px;
+	margin: 10px;
+	background-color: white;
+	box-shadow: 0 0 20px #CCCCCC;
+	-webkit-box-shadow: 0 0 20px #CCCCCC;
+	-ms-box-shadow: 0 0 20px #CCCCCC;
+	-moz-box-shadow: 0 0 20px #CCCCCC;
+	font-size: 14px;
+}
+
+#update_box
+{
+	resize: none;
+}
+
+.info
+{
+	width: 80%;
+}

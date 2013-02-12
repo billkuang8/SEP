@@ -1,0 +1,19 @@
+#companies {
+	font-family: Arial;
+	position: absolute;
+	top: 280px;
+	padding: 20px;
+	margin: 10px;
+	background-color: white;
+	box-shadow: 0 0 20px #CCCCCC;
+	-webkit-box-shadow: 0 0 20px #CCCCCC;
+	-ms-box-shadow: 0 0 20px #CCCCCC;
+	-moz-box-shadow: 0 0 20px #CCCCCC;
+	font-size: 14px;
+}
+
+#companies > .top_link{
+	background-color: #44ac49 !important; color: white !important;
+}
+
+#companies > img {width: 100%;}

@@ -1,0 +1,13 @@
+#bottom_banner {
+  background-color: gray;
+  height: 70px;
+  position: relative;
+}
+#bottom_banner_div {
+  font-size: 12px;
+  width: 80%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+}
+.hide {display: none;}

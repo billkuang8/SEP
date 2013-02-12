@@ -1,0 +1,64 @@
+/*iframe {
+  position: relative;
+  left: 1%;
+}
+
+#internal_accordion{
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  width: 80%;
+  height: 70%;
+}
+
+#internal_buttons {
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  width: 70%;
+  height: 78%;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.button {
+  position: relative;
+  left: 10%;
+  width: 150px;
+  font-size: 12px;
+}*/
+
+#hitcount {position: absolute; top: 1000px;}
+
+#internal > .top_link{
+  background-color: #44ac49 !important; color: white !important;
+}
+
+.button_effect {
+  background-color: white;
+  width: 245.88px;
+  height: 300px;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  border: 1px solid gray;
+}
+  .button_effect img {
+    width: 94%;
+    height: 90%;
+    border-radius: 0.5em;
+    position: absolute;
+    left: 3%;
+    top: 1%;
+    outline: none;
+    border: none;
+  }
+  .button_effect > span {position: absolute;}
+  #calendar {top: 280px;}
+  #pledge_forum {top: 280px;}
+  #pledge_files {top: 280px;}
+  #forum {top: 630px;}
+  #files {top: 630px;}
+  #messages {top: 280px;}
+  #news_update_button {top: 630px;}
+  #rush_update_button {top: 630px;}

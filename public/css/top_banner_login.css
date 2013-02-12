@@ -1,0 +1,122 @@
+html {
+	min-width: 1200px;
+}
+
+body {
+    background-color: #fafafa;
+	font-size: 12px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+.top {
+	background-color: white;
+	height: 5px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.main_banner {
+	position: absolute;
+	top: 30px;
+	z-index: 999;
+}
+
+.banner_links {
+	list-style: none;
+}
+	.banner_links, li {
+		width: 100px;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+	.banner_links a {
+		padding: 0;
+		margin: 0;
+		text-decoration: none !important;
+		color: gray !important;
+	}
+
+.links {
+	padding-top: 46px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: absolute;
+}
+	.links:hover {
+		/*background-color: white;*/
+		/*border-bottom: 2px solid lightblue*/;
+	}
+
+.submenu {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: left !important;
+	border-bottom: 1px dotted gray;
+	z-index: 7;
+	background-color: white;
+	width: 123px;
+	font-size: 12px;
+}
+	.submenu:hover {
+		background-color: #f0f0f0;
+	}
+
+        #dropdown_menu {display: none; list-style: none; z-index: 8; text-align: left; box-shadow: 1px 1px 2px #333333;}
+
+#home {top: -25px;} #home:hover {background-color: white; border-bottom: 2px solid lightblue;}
+#lab {top: -25px; } 
+	#dropdown_menu {padding: 0; margin: 0; position: absolute; top: 54px;}
+	#lab_equipments {border: none;}
+#publications {top: -25px; } #publications:hover {background-color: white; border-bottom: 2px solid lightblue;}
+#internal {top: -78px;}
+	#dropdown_menu2 {padding: 0; margin: 0; position: absolute; top: 1px; display: none; list-style: none; z-index: 8; text-align: left; box-shadow: 1px 1px 2px #333333;}
+	#internal_files{border: none;}
+#contact {top: -25px;} #contact:hover {background-color: white; border-bottom: 2px solid lightblue;}
+
+
+
+#dropdown {
+	border: 1px solid black; 
+	height: 150px;
+}
+#lab_dropdown {
+	list-style: none;
+	position: absolute;
+	left: 51%;
+	top: 20%;
+}
+#lab_dropdown > li {
+	padding-top: 20px;
+	width: 160px;
+}
+#lab_dropdown > li > a{
+	text-decoration: none;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: gray;
+}
+#lab_dropdown > li:hover {
+	background-color: white;
+}
+
+#login {
+	margin: 5px;
+	padding: 5px;
+	font-size: 12px;
+    width: 150px;
+	position: absolute;
+}
+
+.error_message {
+	font-size: 10px;
+	color: red;
+	padding: 3px;
+	margin: 3px;
+}

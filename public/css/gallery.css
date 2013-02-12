@@ -1,0 +1,65 @@
+.picture_area {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  /*border: 1px solid black;*/
+  /*padding: 10px;*/
+  top: 280px;
+  box-shadow: 0 0 20px #CCCCCC;
+  -webkit-box-shadow: 0 0 10px #CCCCCC;
+  -ms-box-shadow: 0 0 20px #CCCCCC;
+  -moz-box-shadow: 0 0 20px #CCCCCC;
+}
+
+  .picture_area img {
+    height: 98%;
+    width: 98%;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    
+  }
+
+#new_profile {
+  position: absolute;
+  left:0px;
+  top: -35px;
+}
+
+.container {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  margin: 20px !important;
+}
+  .container .delete {
+    position: absolute;
+    left: 94%;
+    top: -2%;
+    z-index: 999;
+    text-decoration: none;
+    color: black;
+    display: none;
+  }
+  
+  .image_container {
+    background-color: white;
+    position: absolute;
+    left: 6%;
+    width: 85%;
+    height: 60%;
+    top: 2%;
+    border: 1px solid gray;
+  }
+  
+  .info_container {
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    text-align: center;
+  }
+  
+  #brothers > .top_link{
+    background-color: #44ac49 !important; color: white !important;
+  }

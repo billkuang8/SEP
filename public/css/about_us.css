@@ -1,0 +1,17 @@
+#contact_main {
+	position: absolute !important;
+	top: 280px !important; 
+	padding: 20px;
+	box-shadow: 0 0 20px #CCCCCC;
+	-webkit-box-shadow: 0 0 20px #CCCCCC;
+	-ms-box-shadow: 0 0 20px #CCCCCC;
+	-moz-box-shadow: 0 0 20px #CCCCCC;
+}
+
+#contact_main > span {
+	color: gray;
+}
+
+#about_us > .top_link{
+	background-color: #44ac49 !important; color: white !important;
+}

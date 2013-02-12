@@ -1,0 +1,105 @@
+#wrapper a, table a {
+  text-decoration: none;
+  color; blue;}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#wrapper{
+    margin: 0;
+    padding-bottom: 25px;
+  position: absolute;
+  top: 280px;
+}
+
+#main {
+  padding: 20px;
+  box-shadow: 0 0 20px #CCCCCC;
+    -webkit-box-shadow: 0 0 20px #CCCCCC;
+  -ms-box-shadow: 0 0 20px #CCCCCC;
+  -moz-box-shadow: 0 0 20px #CCCCCC;
+  position: absolute;
+  top: 250px;
+}
+
+#main p {
+    margin: 5px;
+}
+
+#threadbox {
+    text-align: left;
+    margin: 10px;
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 95%;
+  box-shadow: 0 0 20px #CCCCCC;
+  -webkit-box-shadow: 0 0 20px #CCCCCC;
+  -ms-box-shadow: 0 0 20px #CCCCCC;
+  -moz-box-shadow: 0 0 20px #CCCCCC;
+}
+
+.new_post {
+    width: 45%;
+  position: relative;
+  left: 6%;
+  color: gray;
+}
+
+#submitmsg {
+  position: relative;
+  left: 5.7%;
+  
+}
+
+#menu { 
+    padding: 12.5px 25px 12.5px 25px; 
+}  
+  
+.welcome { 
+    float: left; 
+}  
+  
+.logout { 
+    float: right; 
+}  
+  
+.msgln { 
+    margin: 0 0 2px 0; 
+}
+
+.thread {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+  .delete {
+    display: none;
+  }
+
+.topic {
+  font-size: 14px;
+}
+
+.forum_post {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.link {
+  font-size: 14px !important;
+}
+
+form {
+  position: relative;
+  display: block;
+  left: -5%;
+}
+
+td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+}

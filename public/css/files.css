@@ -1,0 +1,26 @@
+table {
+	margin-top: 40px;
+    background: white;
+    padding: 40px;
+	box-shadow: 0 0 20px #CCCCCC;
+    -webkit-box-shadow: 0 0 20px #CCCCCC;
+	-ms-box-shadow: 0 0 20px #CCCCCC;
+	-moz-box-shadow: 0 0 20px #CCCCCC;
+	position: absolute;
+	top: 250px;
+}
+
+td {
+	padding: 10px;
+	text-align: center;
+}
+
+form {
+	
+	position: absolute;
+	
+}
+
+#upload_form {
+	position: absolute;
+}
